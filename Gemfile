@@ -39,6 +39,11 @@ gem "figaro"
 gem 'active_model_serializers'
 gem 'ffaker'
 
+# React Js for rails
+gem 'react-rails'
+# Fix The controller-level `respond_to' feature....
+gem 'responders', '~> 2.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
